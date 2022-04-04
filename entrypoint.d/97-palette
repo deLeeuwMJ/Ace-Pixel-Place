@@ -2,7 +2,6 @@
 
 set -eux
 
-# If config is mounted to /pallete.conf, move it to workdir
 if [[ -f /pxls.conf ]]; then
 	echo "Custom Palette Config File Detected, Using that"
 	cp /pallete.conf ./pallete.conf

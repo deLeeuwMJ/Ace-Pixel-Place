@@ -1,3 +1,3 @@
 FROM adoptopenjdk/openjdk16:latest
-COPY entrypoint.d/ /entrypoint.d
-ENTRYPOINT [ "/bin/run-parts", "--exit-on-error", "/entrypoint.d" ]
+COPY pxls-1.0-SNAPSHOT.jar /home/pxls-1.0-SNAPSHOT.jar
+CMD ["java","-jar","/home/pxls-1.0-SNAPSHOT.jar"]
