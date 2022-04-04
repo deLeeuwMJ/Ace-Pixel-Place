@@ -2,4 +2,4 @@
 
 set -eux
 
-java -jar pxls-1.0-SNAPSHOT.jar
+java -jar pxls.jar
